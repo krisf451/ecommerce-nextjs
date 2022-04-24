@@ -11,10 +11,10 @@ const FooterBanner = ({
     saleTime,
     smallText,
     midText,
+    desc,
     product,
     buttonText,
     image,
-    desc,
   },
 }) => {
   return (
@@ -34,8 +34,8 @@ const FooterBanner = ({
             <button type="button">{buttonText}</button>
           </Link>
         </div>
-        <img src={urlFor(image)} alt="footer" className="footer-banner-image" />
       </div>
+      <img src={urlFor(image)} className="footer-banner-image" alt="footer" />
     </div>
   );
 };
