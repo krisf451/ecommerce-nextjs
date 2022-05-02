@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Headphones e-Commerce
 
-## Getting Started
+## Description
 
-First, run the development server:
+A fullstack e-commerce web application built with NextJS and sanity. Built for clients who are looking to use increase their online presence through e-commerce. Fully functional stripe implementation for real-time purchase requests and modern UI components built for the best user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Table of Contents (Optional)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Visit the deployed link here. https://ksf-ecommerce.vercel.app/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Usage
 
-## Learn More
+As a user I want to be able to quickly find the headphones I can purchase, add them to a cart, and checkout with payment.
 
-To learn more about Next.js, take a look at the following resources:
+## Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Deploy on Vercel
+## Questions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you have any questions please feel free to email me at:
+kristianf451@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Link to my Github profile:
+https://github.com/krisf451
+
+## Contributing
+
+## Tests
+
+If you would like to test payment through stripe I have set of a test-stripe database for users to experiment with. Use test card data. Card Numbers : 4242 4242 4242 4242 Exp Date: 4/24 CVC: 424
